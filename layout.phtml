@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<b><?$msg;?></b>
+<form action="post">
+    Username: <input type="text" name="username" value="<?=$form->username?>"> <br>
+    Email: <input type="email" name="email" value="<?=$form->email?>"> <br>
+    Message: <textarea name="message" id="" cols="30" rows="10" value="<?=$form->message?>"></textarea>
+</form>
+</body>
+</html>
